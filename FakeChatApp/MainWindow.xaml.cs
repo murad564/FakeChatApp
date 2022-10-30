@@ -34,7 +34,7 @@ namespace FakeChatApp
                 if (!string.IsNullOrWhiteSpace(messageArea.Text))
                 {
                     Messages.Add(new Message { SenderName = "You", SendedTime = DateTime.Now, Text = messageArea.Text.ToString() });
-                    Messages.Add(new Message { SenderName = "StepIT bot", SendedTime = DateTime.Now, Text = messageArea.Text.ToString() });
+                    Messages.Add(new Message { SenderName = "WhatsApp", SendedTime = DateTime.Now, Text = messageArea.Text.ToString() });
                     RefreshMessageList();
                 }
             }

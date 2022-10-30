@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="background2.jpg" />
+    <None Remove="filled-sent.png" />
+    <None Remove="happy.png" />
+    <None Remove="WhatsAppLogo.jpeg" />
+    <None Remove="Без названия.jpeg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="background2.jpg" />
+    <Resource Include="filled-sent.png" />
+    <Resource Include="happy.png" />
+    <Resource Include="WhatsAppLogo.jpeg" />
+    <Resource Include="Без названия.jpeg" />
+  </ItemGroup>
+
+</Project>
